@@ -145,19 +145,28 @@ ChooseCharacter = input(name + ", choose your character! Each character have dif
 
 print("Awesome choice " + name + "!" " You will do well as a " + ChooseCharacter + "!")
 
+Upgrades1 = ("Speed boost, Wacky coins") 
+Boostprice = 2
+Coinsprice = 4
+
 buyupgrades = input("Would you like to buy upgrades? (Yes/No)\n")
 if buyupgrades == "Yes":
-    print("You chose to buy upgrades!")
+    print("You chose to buy upgrades! You can buy up to 5 speed boost and 5 wacky coins each day.")
+    upgrades = input("Choose your upgrades below! \n" + Upgrades1 + "\n")
+    if "Speed boost" in upgrades: 
+       quantity = input("How many speed boost do you want?\n")
+       total = Boostprice * int(quantity)
+       print(f"Your total is {total}.")
+    if "Wacky coins" in upgrades:
+       quantity2 = input("How many wacky coins do you want?\n")
+       total2 = Coinsprice * int(quantity2)
+       print(f"Your total is {total2}.")
+    if "Speed boost, Wacky coins" in upgrades:
+        quantity3 = input("How many upgrades\n?")
+        total3 = Boostprice + Coinsprice * int(quantity3)
+        print(f"Your total is {total3}") 
 else:
     print("You chose not to buy upgrades.")
-
-upgrades = ("Speed boost, Wacky coins")
-
-print("Choose an upgrade below.\n" + upgrades)
-
-boost = "$2"
-coins = "$4" 
-quantity = input()
 
 
 #End: 
