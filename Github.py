@@ -141,7 +141,7 @@ print("You've chosen " + gamemode + ".")
 
 characters = "Healer, Fighter, Archaeology, Pilot"
 
-ChooseCharacter = input(name + ", choose your character! Each character have different abilities. Your choices are Healer, Fighter, Archaeology, or Pilot. \n")
+ChooseCharacter = input(name + ", choose your character! Each character have different abilities. Check the options below." "\n" + characters + "\n")
 
 print("Awesome choice " + name + "!" " You will do well as a " + ChooseCharacter + "!")
 
