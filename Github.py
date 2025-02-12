@@ -124,9 +124,9 @@
 
 
 
-#(Modified) Building a video game
+#(Modified) Building a video game/The int() function(converting data)
 
-#Start: Fix the variable not connect
+#Start: Fix upgrades to calculate both
 print("Hello Adventurer! Welcome to Aurora's Adventures!!!")
 
 name = input("What is your name?\n")
