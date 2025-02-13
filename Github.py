@@ -126,7 +126,7 @@
 
 #(Modified) Building a video game/The int() function(converting data)
 
-#Start: Fix upgrades to calculate both
+#Start: Fix upgrades to calculate both, Stop a number, 
 print("Hello Adventurer! Welcome to Aurora's Adventures!!!")
 
 name = input("What is your name?\n")
