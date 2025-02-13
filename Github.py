@@ -162,9 +162,9 @@ if buyupgrades == "Yes":
        total2 = Coinsprice * int(quantity2)
        print(f"Your total is {total2}.")
     if "Speed boost, Wacky coins" in upgrades:
-        quantity3 = input("How many upgrades\n?")
+        quantity3 = input("How many upgrades?\n")
         total3 = Boostprice + Coinsprice * int(quantity3)
-        print(f"Your total is {total3}") 
+        print(f"Your total is str(total3)") 
 else:
     print("You chose not to buy upgrades.")
 
