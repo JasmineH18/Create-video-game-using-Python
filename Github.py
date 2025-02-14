@@ -126,7 +126,7 @@
 
 #(Modified) Building a video game/The int() function(converting data)
 
-#Start: Fix upgrades to calculate both, Stop a number, 
+#Start: Fix upgrades to calculate both, Stop a number, add term descriptions,
 print("Hello Adventurer! Welcome to Aurora's Adventures!!!")
 
 name = input("What is your name?\n")
@@ -153,18 +153,14 @@ buyupgrades = input("Would you like to buy upgrades? (Yes/No)\n")
 if buyupgrades == "Yes":
     print("You chose to buy upgrades! You can buy up to 5 speed boost and 5 wacky coins each day.")
     upgrades = input("Choose your upgrades below! \n" + Upgrades1 + "\n")
+    total = 0
     if "Speed boost" in upgrades: 
        quantity = input("How many speed boost do you want?\n")
-       total = Boostprice * int(quantity)
-       print(f"Your total is {total}.")
+       total += Boostprice * int(quantity)
     if "Wacky coins" in upgrades:
        quantity2 = input("How many wacky coins do you want?\n")
-       total2 = Coinsprice * int(quantity2)
-       print(f"Your total is {total2}.")
-    if "Speed boost, Wacky coins" in upgrades:
-        quantity3 = input("How many upgrades?\n")
-        total3 = Boostprice + Coinsprice * int(quantity3)
-        print(f"Your total is str(total3)") 
+       total += Coinsprice * int(quantity2)
+    print("Your total is: " + str(total))
 else:
     print("You chose not to buy upgrades.")
 
