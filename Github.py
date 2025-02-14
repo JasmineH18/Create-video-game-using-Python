@@ -125,45 +125,54 @@
 
 
 #(Modified) Building a video game/The int() function(converting data)
+#Add Stop a number, add term descriptions,
+#Start: 
+#print("Hello Adventurer! Welcome to Aurora's Adventures!!!")
 
-#Start: Stop a number, add term descriptions,
-print("Hello Adventurer! Welcome to Aurora's Adventures!!!")
+#name = input("What is your name?\n")
 
-name = input("What is your name?\n")
+#print("Hello " + name + ", we are happy to have you here!")
 
-print("Hello " + name + ", we are happy to have you here!")
+#playergamemode = "easy mode, hard mode, extreme mode"
 
-playergamemode = "easy mode, hard mode, extreme mode"
+#gamemode = input("Choose a gamemode below you would like to play." "\n" + playergamemode + "\n")
 
-gamemode = input("Choose a gamemode below you would like to play." "\n" + playergamemode + "\n")
+#print("You've chosen " + gamemode + ".")
 
-print("You've chosen " + gamemode + ".")
+#characters = "Healer, Fighter, Archaeology, Pilot"
 
-characters = "Healer, Fighter, Archaeology, Pilot"
+#ChooseCharacter = input(name + ", choose your character! Each character have different abilities. Check the options below." "\n" + characters + "\n")
 
-ChooseCharacter = input(name + ", choose your character! Each character have different abilities. Check the options below." "\n" + characters + "\n")
+#print("Awesome choice " + name + "!" " You will do well as a " + ChooseCharacter + "!")
 
-print("Awesome choice " + name + "!" " You will do well as a " + ChooseCharacter + "!")
+#Upgrades1 = ("Speed boost, Wacky coins") 
+#Boostprice = 2
+#Coinsprice = 4
 
-Upgrades1 = ("Speed boost, Wacky coins") 
-Boostprice = 2
-Coinsprice = 4
+#buyupgrades = input("Would you like to buy upgrades? (Yes/No)\n")
+#if buyupgrades == "Yes":
+    #print("You chose to buy upgrades! You can buy up to 5 speed boost and 5 wacky coins each day.")
+    #upgrades = input("Choose your upgrades below! \n" + Upgrades1 + "\n")
+    #total = 0
+    #if "Speed boost" in upgrades: 
+       #quantity = input("How many speed boost do you want?\n")
+       #total += Boostprice * int(quantity)
+    #if "Wacky coins" in upgrades:
+       #quantity2 = input("How many wacky coins do you want?\n")
+       #total += Coinsprice * int(quantity2)
+    #print("Your total is: $" + str(total))
+#else:
+    #print("You chose not to buy upgrades.")
 
-buyupgrades = input("Would you like to buy upgrades? (Yes/No)\n")
-if buyupgrades == "Yes":
-    print("You chose to buy upgrades! You can buy up to 5 speed boost and 5 wacky coins each day.")
-    upgrades = input("Choose your upgrades below! \n" + Upgrades1 + "\n")
-    total = 0
-    if "Speed boost" in upgrades: 
-       quantity = input("How many speed boost do you want?\n")
-       total += Boostprice * int(quantity)
-    if "Wacky coins" in upgrades:
-       quantity2 = input("How many wacky coins do you want?\n")
-       total += Coinsprice * int(quantity2)
-    print("Your total is: " + str(total))
-else:
-    print("You chose not to buy upgrades.")
+#End
+#print("Wonderful choice " + name + "! Your adventure starts now! We will meet again!")
 
 
-#End: 
-#print("Wonderful choice " + name + "! You chose " + Selection + "! Your adventure starts now! We will meet again!")
+#NetworkChuck Episode 4
+#start
+
+
+
+
+
+
