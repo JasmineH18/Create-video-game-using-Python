@@ -1,3 +1,5 @@
+#Make sure to add term drescription and add automatic text
+
 #Multiline strings. 
 #Before
 #START: print("Summer will soon be over. Autumn is approaching. I want to see the snow in the mountains.")
@@ -169,10 +171,71 @@
 
 
 #NetworkChuck Episode 4
+#If (True) Else (False) statements
+#Need to add IF Else term descriptions
 #start
 
+#Using IF to control flow
+
+#(Modified) Building a video game
+
+#Start
+
+#Add how to automatically talk
+
+#print("Hello Adventurer! Welcome to Aurora's Adventures. Get Schwifty!!!")
+
+#name = input("What is your name?\n")
+
+#if name == "Rick":
+    #print("Get out of here Rick!!! You're going to ruin my........")
+    #exit()
+#if name == "Rick Sanchez":
+    #print("Get out of here Rick!!! You're going to ruin my........")
+    #exit()
+#if name == "Rick and Morty":
+    #print("Get out of here Rick!!! You're going to ruin my........")
+    #exit()
+#else:
+    #print("Hello " + name + ", we are happy to have you here!")
+
+#playergamemode = "easy mode, hard mode, extreme mode"
+
+#gamemode = input("Choose a gamemode below you would like to play." "\n" + playergamemode + "\n")
+
+#print("You've chosen " + gamemode + ".")
+
+#characters = "Healer, Fighter, Archaeology, Pilot"
+
+#ChooseCharacter = input(name + ", choose your character! Each character have different abilities. Check the options below." "\n" + characters + "\n")
+
+#print("Awesome choice " + name + "!" " You will do well as a " + ChooseCharacter + "!")
+
+#Upgrades1 = ("Speed boost, Wacky coins") 
+#Boostprice = 2
+#Coinsprice = 4
+
+#buyupgrades = input("Would you like to buy upgrades? (Yes/No)\n")
+#if buyupgrades == "Yes":
+    #print("You chose to buy upgrades! You can buy up to 5 speed boost and 5 wacky coins each day.")
+    #upgrades = input("Choose your upgrades below! \n" + Upgrades1 + "\n")
+    #total = 0
+    #if "Speed boost" in upgrades: 
+       #quantity = input("How many speed boost do you want?\n")
+       #total += Boostprice * int(quantity)
+    #if "Wacky coins" in upgrades:
+       #quantity2 = input("How many wacky coins do you want?\n")
+       #total += Coinsprice * int(quantity2)
+    #print("Your total is: " + str(total))
+#else:
+    #print("You chose not to buy upgrades.")
+
+#print("Wonderful choice " + name + "! Your adventure starts now! We will meet again!")
+
+#End
 
 
+#NetworkChuck Episode 5
 
 
 
