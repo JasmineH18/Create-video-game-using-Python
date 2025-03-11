@@ -422,3 +422,114 @@
     #print("Wonderful choice " + name + "! Your adventure starts now! We will meet again!")
 
 #End
+
+
+#Networkchuck Episode 7
+#list in Python
+
+#Start
+
+print("Hello Adventurer! Welcome to Aurora's Adventures. Get Schwifty!!!")
+
+name = input("What is your name?\n")
+
+if name == "Rick" or name == "Morty":
+    suspiciousname = input("Are you Rick Sanchez?")
+    crimes = int(input("How many crimes have you committed?"))
+    if suspiciousname == "Yes" and crimes <= 8000000:
+        print("Get out of here " + name + "!!! You're going to ruin my........")
+        exit()
+    else:
+        print("Haha! You had me worried! You may enter!")
+if name == "Rick Sanchez" or name == "Morty Smith":
+    print("Get out of here Rick!!! You're going to ruin my........")
+    exit()
+if name == "Rick and Morty":
+    print("Get out of here Rick!!! You're going to ruin my........")
+    exit()
+else:
+    print("Hello " + name + ", we are happy to have you here!")
+
+playergamemode = "easy mode, hard mode, extreme mode"
+
+gamemode = input("Choose a gamemode below you would like to play." "\n" + playergamemode + "\n")
+
+print("You've chosen " + gamemode + ".")
+
+characters = "Healer, Fighter, Archaeology, Pilot"
+
+ChooseCharacter = input(name + ", choose your character! Each character have different abilities. Check the options below." "\n" + characters + "\n")
+
+LionRoar8KMFact = "True"
+LionRoarFact = "False, a lion's roar can be heard up to eight kilometres away "
+
+if ChooseCharacter == "Archeaology":
+    fact = input("A lion's roar can be heard up to eight kilometres away (Yes/No)\n")
+    if fact == "Yes":
+        print(LionRoar8KMFact)
+    if fact == "No":
+        print(LionRoarFact)
+if not name == "Healer, Fighter, Pilot":
+    print("Awesome choice " + name + "!" " You will do well as a " + ChooseCharacter + "!")
+
+#The common way to use 'Not' is to use '!='
+#Example 
+# if name != "Healer, Fighter, Pilot":
+    #print("Awesome choice " + name + "!" " You will do well as a " + ChooseCharacter + "!")
+
+#Boolean True or False, YT NetworkChuck 15:56
+#LionRoar8KMFact == "True"
+#not LionRoar8KMFact == "True"
+#LionRoar8KMFact == "Tough"
+#print(type(LionRoar8KMFact == "True"))
+
+Upgrades1 = ("Speed boost, Wacky coins") 
+Boostprice = 2
+Coinsprice = 4
+
+buyupgrades = input("Would you like to buy upgrades? (Yes/No)\n")
+if buyupgrades == "Yes":
+    print("You chose to buy upgrades! You can buy up to 5 speed boost and 5 wacky coins each day.")
+    upgrades = input("Choose your upgrades below! \n" + Upgrades1 + "\n")
+    total = 0
+    if "Speed boost" in upgrades: 
+       quantity = input("How many speed boost do you want?\n")
+       total += Boostprice * int(quantity)
+    if "Wacky coins" in upgrades:
+       quantity2 = input("How many wacky coins do you want?\n")
+       total += Coinsprice * int(quantity2)
+    print("Your total is: " + str(total))
+else:
+    print("You chose not to buy upgrades.")
+
+Characterskins = ("Christmas, Halloween, Fruits, Aurora's Theme")
+
+Skins = input(name + " Would you like to get skins? See options below.\n" + Characterskins +"\n")
+
+if "Christmas" in Skins:
+    print("Price is $3!")
+elif "Halloween" in Skins:
+    print("Price is $4!")
+elif "Fruits" in Skins:
+    print("Price is free!")
+elif "Aurora's Theme" in Skins:
+    print("Price is free!")
+else:
+    print("We do not have that skin, maybe in the future we will.")
+
+Adventure_list = ["Flash light", "Map", "Backpack", "Binoculars"]
+
+print("These are the items you are provided with!" "\n" , Adventure_list ,)
+
+#print(type(Adventure_list))
+
+Options = "Tutorial, No tutorial"
+
+Chooseoption = input("Would you like to do the tutorial?\n" + Options + "\n")
+
+if Chooseoption == "Tutorial":
+    print("Wonderful choice " + name + "! Let's enter the training room!")
+elif Chooseoption == "No tutorial":
+    print("Wonderful choice " + name + "! Your adventure starts now! We will meet again!")
+
+#End
