@@ -552,4 +552,15 @@ if Chooseoption == "Tutorial":
 elif Chooseoption == "No tutorial":
     print("Wonderful choice " + name + "! Your adventure starts now! We will meet again!")
 
+
+
+
+Extra_items = ["Nunchucks", "Medkits", "Dental picks", "Tool kit"]
+
+#items = input("Would you like to add extra items below? (Yes/No) \n")
+
+#Select_items = input(f"Select the items you want:" , Extra_items , "\n") 
+#print("You've selected:" "\n" , Select_items , "\n")
+print()
+
 #End
