@@ -517,18 +517,27 @@ elif "Aurora's Theme" in Skins:
 else:
     print("We do not have that skin, maybe in the future we will.")
 
-#Gather Input
-
 Adventure_area = ["Haunted Cemetery", "Breathing Forest", "Old woman House", "Haunted Hotel"]
 #Adventure area, Health, Only heartbeat it should be in bpm, Is it scary?) 
 Adventure_area1 = ["Haunted Cemetery", 200, 105.000, False]
 Adventure_area2 = ["Breathing Forest", 200, 105.000, False]
-Adventure_area3 = ["Old woman House", 150, 90.000, True]
+Adventure_area3 = ["Old Woman House", 150, 90.000, True]
 Adventure_area4 = ["Haunted Hotel", 100, 90.000, True]
 
-print(Adventure_area1)
+area = input(f"Choose an area you want to do below. You'll be able to see required task and information about the area you selected. Information: Adventure area, starting health amount, game over if you pass this heartbeat, and is it scaary?\n {Adventure_area}""\n")
+
+if "Haunted Cemetery" in area: 
+    print(Adventure_area1)
+elif "Breathing Forest" in area:
+    print(Adventure_area2)
+elif "Old Woman House" in area:
+    print(Adventure_area3)
+elif "Haunted Hotel" in area:
+    print(Adventure_area4)
 
 Adventure_list = ["Flash light", "Map", "Backpack", "Binoculars"]
+
+Extra_items = [""]
 
 print("These are the items you are provided with!" "\n" , Adventure_list ,)
 
