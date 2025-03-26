@@ -538,6 +538,10 @@ elif "Haunted Hotel" in area:
 
 Adventure_list = ["Flash light", "Map", "Backpack", "Binoculars"]
 
+print("These are the items you are provided with!" "\n" , Adventure_list ,)
+
+#print(type(Adventure_list))
+
 Extra_items = ("Nunchucks, Medkits, Dental picks, Tool kit")
 
 items = input("Would you like to add extra items below? (Yes/No) \n")
@@ -547,10 +551,6 @@ if items == "Yes":
     print(Select_items + " Will be added to your inventory.")
 if items == "No":
     print("You decided not to add extra items!")
-
-print("These are the items you are provided with!" "\n" , Adventure_list ,)
-
-#print(type(Adventure_list))
 
 Options = "Tutorial, No tutorial"
 
