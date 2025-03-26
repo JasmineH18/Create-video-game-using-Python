@@ -1,4 +1,5 @@
 #Make sure to add term drescription and add automatic text
+#Make sure to practice intermadiate list
 
 #Multiline strings. 
 #Before
@@ -537,8 +538,7 @@ elif "Haunted Hotel" in area:
 
 Adventure_list = ["Flash light", "Map", "Backpack", "Binoculars"]
 
-#Need to test
-Extra_items = ["Nunchucks, Medkits, Dental picks, Tool kit"]
+Extra_items = ("Nunchucks, Medkits, Dental picks, Tool kit")
 
 items = input("Would you like to add extra items below? (Yes/No) \n")
 
@@ -546,7 +546,7 @@ if items == "Yes":
     Select_items = input("Select the items you want: " , Extra_items , "\n") 
     print(Select_items + " Will be added to your inventory.")
 if items == "No":
-    print("Yay!")
+    print("You decided not to add extra items!")
 
 print("These are the items you are provided with!" "\n" , Adventure_list ,)
 
