@@ -581,5 +581,10 @@ if Chooseoption == "Tutorial":
 elif Chooseoption == "No tutorial":
     print("Wonderful choice " + name + "! Your adventure starts now! We will meet again!")
 
-
 #End
+
+
+#Networkchuck Episode 8
+#Add stuff to Python list
+
+#Start
