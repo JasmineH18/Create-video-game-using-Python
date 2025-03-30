@@ -552,6 +552,26 @@ if items == "Yes":
 if items == "No":
     print("You decided not to add extra items!")
 
+#You can add who bringing what to the adventure.
+Special_items = ["Magnifying glass", "Food", "Rope"]
+import random
+
+Guiders = "Harlow, Kai"
+Harlow = Special_items[0]
+Kai = Special_items[1]
+
+#Tip: Reversed: You can select the last item on the list or any string of the list by using negative index
+#Example: Kai = Special_items[-1] The selected item is will be 'Rope'
+#Example: Kai = Special_items[-2] The selected item is will be 'Food'
+
+print("Your adventure will be led by a guider! Guiders will randomly have one special items that will come in handy:" , Special_items ,)
+
+Select_guiders = input("Choose a guider! Harlow: A loyal German Shepherd or Kai: The courageous lion. " "\n"  + Guiders + "\n")
+
+if Select_guiders == "Harlow" or "Kai":
+    Random_item = random.choice(Special_items)
+    print(f"The guider will bring " + Random_item + "\n")
+
 Options = "Tutorial, No tutorial"
 
 Chooseoption = input("Would you like to do the tutorial?\n" + Options + "\n")
@@ -560,46 +580,6 @@ if Chooseoption == "Tutorial":
     print("Wonderful choice " + name + "! Let's enter the training room!")
 elif Chooseoption == "No tutorial":
     print("Wonderful choice " + name + "! Your adventure starts now! We will meet again!")
-
-
-
-
-
-
-#NEED TO TEST
-Adventure_area = ["Haunted Cemetery", "Breathing Forest", "Old woman House", "Haunted Hotel"]
-#Adventure area, Health, Only heartbeat it should be in bpm, Is it scary?) 
-Adventure_area1 = ["Haunted Cemetery", 200, 105.000, False]
-Adventure_area2 = ["Breathing Forest", 200, 105.000, False]
-Adventure_area3 = ["Old Woman House", 150, 90.000, True]
-Adventure_area4 = ["Haunted Hotel", 100, 90.000, True]
-
-area = input(f"Choose an area you want to do below. You'll be able to see required task and information about the area you selected. Information: Adventure area, starting health amount, game over if you pass this heartbeat, and is it scaary?\n {Adventure_area}""\n")
-
-if "Haunted Cemetery" in area: 
-    print(Adventure_area1)
-elif "Breathing Forest" in area:
-    print(Adventure_area2)
-elif "Old Woman House" in area:
-    print(Adventure_area3)
-elif "Haunted Hotel" in area:
-    print(Adventure_area4)
-
-Adventure_list = ["Flash light", "Map", "Backpack", "Binoculars"]
-
-Extra_items = ["Nunchucks", "Medkits", "Dental picks", "Tool kit"]
-
-#You can add who bringing what to the adventure.
-Special_items = ["Magnifying glass", "Food", "Rope"]
-Guiders = "Harlow, Kai"
-Harlow = Special_items[0]
-Kai = Special_items[1]
-
-print("Your adventure will be led by a guider! Guiders will randomly have one special items that will come in handy:" , Special_items ,)
-
-Select_guiders = input("Choose a guider! Harlow: A loyal German Shepherd or Kai: The courageous lion. Choose a guider:" + Guiders "\n")
-
-if Select_guiders == 
 
 
 #End
