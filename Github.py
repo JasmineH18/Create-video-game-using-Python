@@ -588,3 +588,19 @@ elif Chooseoption == "No tutorial":
 #Add stuff to Python list
 
 #Start
+
+Extra_items = ("Nunchucks, Medkits, Dental picks, Tool kit")
+
+#Concept: Methods
+Extra_items.append("Knife", "Portable power")
+print(Extra_items)
+
+
+print("These are the items you are provided with!" "\n" , Adventure_list ,)
+
+#print(type(Adventure_list))
+
+Extra_items = ("Nunchucks, Medkits, Dental picks, Tool kit")
+
+#Concept: Methods
+Extra_items.append("Knife", "Portable power")
