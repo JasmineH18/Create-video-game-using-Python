@@ -589,18 +589,24 @@
 
 #Start
 
-Extra_items = ("Nunchucks, Medkits, Dental picks, Tool kit")
-
-#Concept: Methods
-Extra_items.append("Knife", "Portable power")
-print(Extra_items)
-
+Adventure_list = ["Flash light", "Map", "Backpack", "Binoculars"]
 
 print("These are the items you are provided with!" "\n" , Adventure_list ,)
 
 #print(type(Adventure_list))
 
-Extra_items = ("Nunchucks, Medkits, Dental picks, Tool kit")
+#Tip: 
+Extra_items = ["Nunchucks", "Medkits", "Dental picks", "Tool kit"]
 
 #Concept: Methods
-Extra_items.append("Knife", "Portable power")
+Extra_items.append("Knife")
+Extra_items.append("Portable power")
+print(Extra_items)
+
+#items = input("Would you like to add extra items below? (Yes/No) \n")
+
+#if items == "Yes":
+    #Select_items = input("Select the items you want: " , Extra_items , "\n") 
+    #print(Select_items + " Will be added to your inventory.")
+#if items == "No":
+    #print("You decided not to add extra items!")
