@@ -599,14 +599,30 @@ print("These are the items you are provided with!" "\n" , Adventure_list ,)
 Extra_items = ["Nunchucks", "Medkits", "Dental picks", "Tool kit"]
 
 #Concept: Methods
-Extra_items.append("Knife")
-Extra_items.append("Portable power")
+#Extra_items.append("Knife")
+#Extra_items.append("Portable power")
+#print(Extra_items)
+
+Extra_items.extend(["Knife", "Portable power", "Matches", "Jacket", "Gloves"])
 print(Extra_items)
 
-#items = input("Would you like to add extra items below? (Yes/No) \n")
+#Tip: Another code similar to 'extend'.
+#Extra_items = Extra_items + ["Test", "Python"]
+#print(Extra_items)
 
-#if items == "Yes":
-    #Select_items = input("Select the items you want: " , Extra_items , "\n") 
-    #print(Select_items + " Will be added to your inventory.")
-#if items == "No":
-    #print("You decided not to add extra items!")
+#Tip 2: Using 'inset'. You can add an string to the list either in the beginning, middle, or other.
+#Example 1
+#Extra_items.insert(0, "Test")
+#print(Extra_items)
+
+#Example 2 
+#Extra_items.insert(-2, "Test 2")
+#print(Extra_items)
+
+items = input("Would you like to add extra items below? (Yes/No) \n")
+
+if items == "Yes":
+    Select_items = input("Select the items you want: " , Extra_items , "\n") 
+    print(Select_items + " Will be added to your inventory.")
+if items == "No":
+    print("You decided not to add extra items!")
