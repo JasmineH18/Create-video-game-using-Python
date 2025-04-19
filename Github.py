@@ -626,3 +626,26 @@ if items == "Yes":
     print(Select_items + " Will be added to your inventory.")
 if items == "No":
     print("You decided not to add extra items!")
+
+
+adventure_list = ["Flash light", "Map", "Backpack", "Binoculars"]
+
+print("These are the items you are provided with!\n", adventure_list)
+
+extra_items = ["Nunchucks", "Medkits", "Dental picks", "Tool kit"]
+extra_items.extend(["Knife", "Portable power", "Matches", "Jacket", "Gloves"])
+
+print("Here are the extra items you can choose from:")
+print(extra_items)
+
+items = input("Would you like to add extra items below? (Yes/No)\n")
+
+if items.lower() == "yes":
+    print("Available extra items:", extra_items)
+    selected_items = input("Select the items you want (separate them with commas):\n")
+    selected_list = [item.strip() for item in selected_items.split(",")]
+    print(", ".join(selected_list) + " will be added to your inventory.")
+elif items.lower() == "no":
+    print("You decided not to add extra items!")
+else:
+    print("Invalid input. Please enter 'Yes' or 'No'.")
