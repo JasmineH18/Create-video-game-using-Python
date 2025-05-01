@@ -945,4 +945,29 @@ if items == "No":
 #elif Chooseoption == "No tutorial":
     #print("Wonderful choice " + name + "! Your adventure starts now! We will meet again!")
 
++++++++++++++++++++++++++++++++++++++++
+Need to add
+Adventure_list = ["Flash light", "Map", "Backpack", "Binoculars"]
+
+print("These are the items you are provided with!" "\n" , Adventure_list ,)
+
+Extra_items = ["Nunchucks", "Medkits", "Dental picks", "Tool kit"]
+
+Extra_items.extend(["Knife", "Portable power", "Matches", "Jacket", "Gloves"])
+
+#Tip
+#'.clear()' can remove everything from the list.
+#Extra_items.clear()
+
+#Tip
+#'.remove("Gloves")' can remove specific strings on the list.
+#Extra_items.remove("Gloves")
+#Extra_items.remove("Jacket")
+
+#Concept: Index
+Extra_items.pop()
+
+print(Extra_items)
+
+
 #End
