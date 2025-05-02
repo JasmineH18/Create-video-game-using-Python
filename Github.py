@@ -966,7 +966,7 @@
 
 
 Networkchuck Episode 10
-#Delete stuff from Python Lists
+#Tuples
 
 #Start
 
