@@ -1161,5 +1161,36 @@ Networkchuck Episode 10
 #elif Chooseoption == "No tutorial":
     #print("Wonderful choice " + name + "! Your adventure starts now! We will meet again!")
 
+
+=============================
+To add
+#Adventure_list = ["Flash light", "Map", "Backpack", "Binoculars"]
+
+#print("These are the items you are provided with!" "\n" , Adventure_list ,)
+
+#Tip: 
+#Extra_items = ["Nunchucks", "Medkits", "Dental picks", "Tool kit"]
+
+#Extra_items.extend(["Knife", "Portable power", "Matches", "Jacket", "Gloves"])
+
+Alist = ["Old", "Poison", "Pain"]
+
+print(type(Alist))
+
+Atuple = ("Old", "Poison", "Pain")
+
+print(type(Atuple))
+
+#Immutable = Not changable
+#You can't mute tuples
+#You can mute list
+
+#print(Extra_items)
+
+
+
+
+
+
 #End
 
