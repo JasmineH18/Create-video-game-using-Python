@@ -1122,6 +1122,50 @@ Networkchuck Episode 10
 #print(Extra_items.pop(2))
 #print("I'm deleting this item: " + Extra_items.pop(2))
 
+#Immutable = Not changable
+#Mutable = You can change it
+#You can't mute tuples
+#You can mute list
+#A list stores homogenous data.
+#Example: Meat = ["Chicken", "Pork", "Steak"] 
+#A tuple store heterogenous data. Data pertaining to specific variable, which is grouping different types of data.
+#Example: Random = ("Red", "1000", "Black")
+
+#Alist = ["Old", "Poison", "Pain"]
+#Alist[1] = "Fire" 
+#print(Alist)
+#print(type(Alist))
+
+#Atuple = ("Old", "Poison", "Pain")
+#Atuple[3] = "Snow"
+#print(Atuple)
+#print(type(Atuple))
+
+#A tuple is faster than a list
+
+#import timeit
+
+#List speed test
+#print(timeit.timeit(stmt = '["Grapes", "Strawberry", "Blueberry", "Blackberry", 100, 50, 1]', number=3000000))
+
+#Tuple speed test
+#print(timeit.timeit(stmt = '("Chocolate", "Vanilla", "Walnut", "Almond", 1000, 500, 100)', number=3000000))
+
+#You can unpack a tuple and assign it to multiple variables all at once. You can do the same for List.
+#Adventurer = ("Unknown", 36, "Suspicious")
+
+#(name, age, work) = Adventurer
+
+#print(name)
+#print(age)
+#print(work)
+
+#You do not need parentheses to make a tuple
+
+#Test = 1,
+
+#print(type(Test))
+
 #items = input("Would you like to add extra items below? (Yes/No) \n")
 
 #if items.lower() == "yes":
@@ -1160,36 +1204,6 @@ Networkchuck Episode 10
     #print("Wonderful choice " + name + "! Let's enter the training room!")
 #elif Chooseoption == "No tutorial":
     #print("Wonderful choice " + name + "! Your adventure starts now! We will meet again!")
-
-
-=============================
-To add
-#Adventure_list = ["Flash light", "Map", "Backpack", "Binoculars"]
-
-#print("These are the items you are provided with!" "\n" , Adventure_list ,)
-
-#Tip: 
-#Extra_items = ["Nunchucks", "Medkits", "Dental picks", "Tool kit"]
-
-#Extra_items.extend(["Knife", "Portable power", "Matches", "Jacket", "Gloves"])
-
-Alist = ["Old", "Poison", "Pain"]
-
-print(type(Alist))
-
-Atuple = ("Old", "Poison", "Pain")
-
-print(type(Atuple))
-
-#Immutable = Not changable
-#You can't mute tuples
-#You can mute list
-
-#print(Extra_items)
-
-
-
-
 
 
 #End
