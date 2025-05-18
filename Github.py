@@ -2,20 +2,54 @@
 #Make sure to practice intermadiate list
 
 #Multiline strings. 
-#Before
-#START: print("Summer will soon be over. Autumn is approaching. I want to see the snow in the mountains.")
+print("Summer will soon be over. Autumn is approaching. I want to see the snow in the mountains.")
 
-#After. You can add space or other text inside.
-#START: print("""Summer will soon be over. 
+#Output:
+#Summer will soon be over. Autumn is approaching. I want to see the snow in the mountains.
+
+#Continued Multiline strings.
+#You can add space or other text inside using three quotation marks.
+print("""Summer will soon be over. 
+Autumn is approaching. 
+I want to see the snow in the mountains.""")
+
+#Output:
+#Summer will soon be over. 
 #Autumn is approaching. 
-#END: I want to see the snow in the mountains.""")
+#I want to see the snow in the mountains.
+
 
 #Concatenate with adding new line (\n). It's called new line indicator character.
-#Before: print("What's your dog name?" + " My dog name is Batman.")
-#After: print("What's your dog name? \n" + "My dog name is Batman.")
+print("What's your dog name? \n" + "My dog name is Batman.")
 
-#Asterisk - To multiply: print("Marvel movies are awesome!" * 10)
-#Use \n to make it cleaner: print("Marvel movies are awesome! \n" * 10)
+#Output:
+#What's your dog name?
+#My dog name is Batman.
+
+
+#Asterisk - To multiply: 
+print("Marvel movies are awesome!" * 10)
+
+#Output:
+#Marvel movies are awesome!Marvel movies are awesome!Marvel movies are awesome!
+#Marvel movies are awesome!Marvel movies are awesome!Marvel movies are awesome!
+#Marvel movies are awesome!Marvel movies are awesome!Marvel movies are awesome!
+#Marvel movies are awesome!
+
+#Use \n to make it cleaner: 
+print("Marvel movies are awesome! \n" * 10)
+
+#Output:
+#Marvel movies are awesome!
+#Marvel movies are awesome!
+#Marvel movies are awesome!
+#Marvel movies are awesome!
+#Marvel movies are awesome!
+#Marvel movies are awesome!
+#Marvel movies are awesome!
+#Marvel movies are awesome!
+#Marvel movies are awesome!
+#Marvel movies are awesome!
 
 
 #Network Chuck episode 2
