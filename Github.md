@@ -9,10 +9,9 @@ print("Summer will soon be over. Autumn is approaching. I want to see the snow i
 Output: 
 <br>
 Summer will soon be over. Autumn is approaching. I want to see the snow in the mountains.
-<br>
-<br>
-<br>
-You can add space or other text inside.
+<br><br>
+
+You can add space or other text inside using three quotation marks.
 ```
 print("""Summer will soon be over. 
 Autumn is approaching. 
@@ -25,16 +24,60 @@ Summer will soon be over.
 Autumn is approaching.
 <br>
 I want to see the snow in the mountains.
-<br>
-<br>
-<br>
-Concatenate with adding new line (\n). It's called new line indicator character.
-#Before: print("What's your dog name?" + " My dog name is Batman.")
-#After: print("What's your dog name? \n" + "My dog name is Batman.")
+<br><br><br>
 
-#Asterisk - To multiply: print("Marvel movies are awesome!" * 10)
-#Use \n to make it cleaner: print("Marvel movies are awesome! \n" * 10)
+Concatenate with adding new line '\n'. It's called new line indicator character.
+```
+print("What's your dog name? \n" + "My dog name is Batman.")
+```
+Output: 
+<br>
+What's your dog name? 
+<br>
+My dog name is Batman.
+<br><br><br>
 
+Asterisk - To multiply:
+```
+print("Marvel movies are awesome!" * 10)
+```
+Output:
+<br>
+Marvel movies are awesome!Marvel movies are awesome!Marvel movies are awesome!
+<br>
+Marvel movies are awesome!Marvel movies are awesome!Marvel movies are awesome!
+<br>
+Marvel movies are awesome!Marvel movies are awesome!Marvel movies are awesome!
+<br>
+Marvel movies are awesome!
+<br><br>
+
+#Use \n to make it cleaner
+```
+print("Marvel movies are awesome! \n" * 10)
+```
+Output:
+<br>
+Marvel movies are awesome! 
+<br>
+Marvel movies are awesome! 
+<br>
+Marvel movies are awesome! 
+<br>
+Marvel movies are awesome! 
+<br>
+Marvel movies are awesome! 
+<br>
+Marvel movies are awesome! 
+<br>
+Marvel movies are awesome! 
+<br>
+Marvel movies are awesome! 
+<br>
+Marvel movies are awesome! 
+<br>
+Marvel movies are awesome!
+<br><br><br>
 
 #Network Chuck episode 2
 #Building a video game
