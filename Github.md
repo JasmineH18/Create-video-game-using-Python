@@ -738,7 +738,6 @@ elif Chooseoption == "No tutorial":
 ```
 
 
------------------------------------------------------------------------------------------------------------------------------------------------------
 # Part 7: Add stuff to Python list
 ```
 print("Hello Adventurer! Welcome to Aurora's Adventures. Get Schwifty!!!")
@@ -918,53 +917,50 @@ elif Chooseoption == "No tutorial":
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-#Networkchuck Episode 9
-#Delete stuff from Python Lists
+# Part 8: Delete stuff from Python Lists
+```
+print("Hello Adventurer! Welcome to Aurora's Adventures. Get Schwifty!!!")
 
-#Start
+name = input("What is your name?\n")
 
-#print("Hello Adventurer! Welcome to Aurora's Adventures. Get Schwifty!!!")
+if name == "Rick" or name == "Morty":
+    suspiciousname = input("Are you Rick Sanchez?")
+    crimes = int(input("How many crimes have you committed?"))
+    if suspiciousname == "Yes" and crimes <= 8000000:
+        print("Get out of here " + name + "!!! You're going to ruin my........")
+        exit()
+    else:
+        print("Haha! You had me worried! You may enter!")
+if name == "Rick Sanchez" or name == "Morty Smith":
+    print("Get out of here Rick!!! You're going to ruin my........")
+    exit()
+if name == "Rick and Morty":
+    print("Get out of here Rick!!! You're going to ruin my........")
+    exit()
+else:
+    print("Hello " + name + ", we are happy to have you here!")
 
-#name = input("What is your name?\n")
+playergamemode = "easy mode, hard mode, extreme mode"
 
-#if name == "Rick" or name == "Morty":
-    #suspiciousname = input("Are you Rick Sanchez?")
-    #crimes = int(input("How many crimes have you committed?"))
-    #if suspiciousname == "Yes" and crimes <= 8000000:
-        #print("Get out of here " + name + "!!! You're going to ruin my........")
-        #exit()
-    #else:
-        #print("Haha! You had me worried! You may enter!")
-#if name == "Rick Sanchez" or name == "Morty Smith":
-    #print("Get out of here Rick!!! You're going to ruin my........")
-    #exit()
-#if name == "Rick and Morty":
-    #print("Get out of here Rick!!! You're going to ruin my........")
-    #exit()
-#else:
-    #print("Hello " + name + ", we are happy to have you here!")
+gamemode = input("Choose a gamemode below you would like to play." "\n" + playergamemode + "\n")
 
-#playergamemode = "easy mode, hard mode, extreme mode"
+print("You've chosen " + gamemode + ".")
 
-#gamemode = input("Choose a gamemode below you would like to play." "\n" + playergamemode + "\n")
+characters = "Healer, Fighter, Archaeology, Pilot"
 
-#print("You've chosen " + gamemode + ".")
+ChooseCharacter = input(name + ", choose your character! Each character have different abilities. Check the options below." "\n" + characters + "\n")
 
-#characters = "Healer, Fighter, Archaeology, Pilot"
+LionRoar8KMFact = "True"
+LionRoarFact = "False, a lion's roar can be heard up to eight kilometres away "
 
-#ChooseCharacter = input(name + ", choose your character! Each character have different abilities. Check the options below." "\n" + characters + "\n")
-
-#LionRoar8KMFact = "True"
-#LionRoarFact = "False, a lion's roar can be heard up to eight kilometres away "
-
-#if ChooseCharacter == "Archeaology":
-    #fact = input("A lion's roar can be heard up to eight kilometres away (Yes/No)\n")
-    #if fact == "Yes":
-        #print(LionRoar8KMFact)
-    #if fact == "No":
-        #print(LionRoarFact)
-#if not name == "Healer, Fighter, Pilot":
-    #print("Awesome choice " + name + "!" " You will do well as a " + ChooseCharacter + "!")
+if ChooseCharacter == "Archaeology":
+    fact = input("A lion's roar can be heard up to eight kilometres away (Yes/No)\n")
+    if fact == "Yes":
+        print(LionRoar8KMFact)
+    if fact == "No":
+        print(LionRoarFact)
+if not name == "Healer, Fighter, Pilot":
+    print("Awesome choice " + name + "!" " You will do well as a " + ChooseCharacter + "!")
 
 #The common way to use 'Not' is to use '!='
 #Example 
@@ -977,73 +973,73 @@ elif Chooseoption == "No tutorial":
 #LionRoar8KMFact == "Tough"
 #print(type(LionRoar8KMFact == "True"))
 
-#Upgrades1 = ("Speed boost, Wacky coins") 
-#Boostprice = 2
-#Coinsprice = 4
+Upgrades1 = ("Speed boost, Wacky coins") 
+Boostprice = 2
+Coinsprice = 4
 
-#buyupgrades = input("Would you like to buy upgrades? (Yes/No)\n")
-#if buyupgrades == "Yes":
-    #print("You chose to buy upgrades! You can buy up to 5 speed boost and 5 wacky coins each day.")
-    #upgrades = input("Choose your upgrades below! \n" + Upgrades1 + "\n")
-    #total = 0
-    #if "Speed boost" in upgrades: 
-       #quantity = input("How many speed boost do you want?\n")
-       #total += Boostprice * int(quantity)
-    #if "Wacky coins" in upgrades:
-       #quantity2 = input("How many wacky coins do you want?\n")
-       #total += Coinsprice * int(quantity2)
-    #print("Your total is: " + str(total))
-#else:
-    #print("You chose not to buy upgrades.")
+buyupgrades = input("Would you like to buy upgrades? (Yes/No)\n")
+if buyupgrades == "Yes":
+    print("You chose to buy upgrades! You can buy up to 5 speed boost and 5 wacky coins each day.")
+    upgrades = input("Choose your upgrades below! \n" + Upgrades1 + "\n")
+    total = 0
+    if "Speed boost" in upgrades: 
+       quantity = input("How many speed boost do you want?\n")
+       total += Boostprice * int(quantity)
+    if "Wacky coins" in upgrades:
+       quantity2 = input("How many wacky coins do you want?\n")
+       total += Coinsprice * int(quantity2)
+    print("Your total is: " + str(total))
+else:
+    print("You chose not to buy upgrades.")
 
-#Characterskins = ("Christmas, Halloween, Fruits, Aurora's Theme")
+Characterskins = ("Christmas, Halloween, Fruits, Aurora's Theme")
 
-#Skins = input(name + " Would you like to get skins? See options below.\n" + Characterskins +"\n")
+Skins = input(name + " Would you like to get skins? See options below.\n" + Characterskins +"\n")
 
-#if "Christmas" in Skins:
-    #print("Price is $3!")
-#elif "Halloween" in Skins:
-    #print("Price is $4!")
-#elif "Fruits" in Skins:
-    #print("Price is free!")
-#elif "Aurora's Theme" in Skins:
-    #print("Price is free!")
-#else:
-    #print("We do not have that skin, maybe in the future we will.")
+if "Christmas" in Skins:
+    print("Price is $3!")
+elif "Halloween" in Skins:
+    print("Price is $4!")
+elif "Fruits" in Skins:
+    print("Price is free!")
+elif "Aurora's Theme" in Skins:
+    print("Price is free!")
+else:
+    print("We do not have that skin, maybe in the future we will.")
 
-#Adventure_area = ["Haunted Cemetery", "Breathing Forest", "Old woman House", "Haunted Hotel"]
+Adventure_area = ["Haunted Cemetery", "Breathing Forest", "Old woman House", "Haunted Hotel"]
 #Adventure area, Health, Only heartbeat it should be in bpm, Is it scary?) 
-#Adventure_area1 = ["Haunted Cemetery", 200, 105.000, False]
-#Adventure_area2 = ["Breathing Forest", 200, 105.000, False]
-#Adventure_area3 = ["Old Woman House", 150, 90.000, True]
-#Adventure_area4 = ["Haunted Hotel", 100, 90.000, True]
+Adventure_area1 = ["Haunted Cemetery", 200, 105.000, False]
+Adventure_area2 = ["Breathing Forest", 200, 105.000, False]
+Adventure_area3 = ["Old Woman House", 150, 90.000, True]
+Adventure_area4 = ["Haunted Hotel", 100, 90.000, True]
 
-#area = input(f"Choose an area you want to do below. You'll be able to see required task and information about the area you selected. Information: Adventure area, starting health amount, game over if you pass this heartbeat, and is it scaary?\n {Adventure_area}""\n")
+area = input(f"Choose an area you want to do below. You'll be able to see required task and information about the area you selected. Information: Adventure area, starting health amount, game over if you pass this heartbeat, and is it scaary?\n {Adventure_area}""\n")
 
-#if "Haunted Cemetery" in area: 
-    #print(Adventure_area1)
-#elif "Breathing Forest" in area:
-    #print(Adventure_area2)
-#elif "Old Woman House" in area:
-    #print(Adventure_area3)
-#elif "Haunted Hotel" in area:
-    #print(Adventure_area4)
+if "Haunted Cemetery" in area: 
+    print(Adventure_area1)
+elif "Breathing Forest" in area:
+    print(Adventure_area2)
+elif "Old Woman House" in area:
+    print(Adventure_area3)
+elif "Haunted Hotel" in area:
+    print(Adventure_area4)
 
-#Adventure_list = ["Flash light", "Map", "Backpack", "Binoculars"]
+Adventure_list = ["Flash light", "Map", "Backpack", "Binoculars"]
 
-#print("These are the items you are provided with!" "\n" , Adventure_list ,)
+print("These are the items you are provided with!" "\n" , Adventure_list ,)
 
 #print(type(Adventure_list))
+ 
+Extra_items = ["Nunchucks", "Medkits", "Dental picks", "Tool kit"]
 
-#Tip: 
-#Extra_items = ["Nunchucks", "Medkits", "Dental picks", "Tool kit"]
-
+#Tip:
 #Concept: Methods
 #Extra_items.append("Knife")
 #Extra_items.append("Portable power")
 #print(Extra_items)
 
-#Extra_items.extend(["Knife", "Portable power", "Matches", "Jacket", "Gloves"])
+Extra_items.extend(["Knife", "Portable power", "Matches", "Jacket", "Gloves"])
 
 #Tip: Another code similar to 'extend'.
 #Extra_items = Extra_items + ["Test", "Python"]
@@ -1075,48 +1071,48 @@ elif Chooseoption == "No tutorial":
 #print(Extra_items.pop(2))
 #print("I'm deleting this item: " + Extra_items.pop(2))
 
-#items = input("Would you like to add extra items below? (Yes/No) \n")
+items = input("Would you like to add extra items below? (Yes/No) \n")
 
-#if items.lower() == "yes":
-    #print("Here's the list of available extra items:", Extra_items)
-    #selected_items = input("Select the items you want (separate them with commas):\n")
-    #selected_list = [item.strip() for item in selected_items.split(",")]
-    #print(", ".join(selected_list) + " will be added to your inventory.")
-#if items == "No":
-    #print("You decided not to add extra items!")
+if items.lower() == "yes":
+    print("Here's the list of available extra items:", Extra_items)
+    selected_items = input("Select the items you want (separate them with commas):\n")
+    selected_list = [item.strip() for item in selected_items.split(",")]
+    print(", ".join(selected_list) + " will be added to your inventory.")
+if items == "No":
+    print("You decided not to add extra items!")
 
 #You can add who bringing what to the adventure.
-#Special_items = ["Magnifying glass", "Food", "Rope"]
-#import random
+Special_items = ["Magnifying glass", "Food", "Rope"]
+import random
 
-#Guiders = "Harlow, Kai"
-#Harlow = Special_items[0]
-#Kai = Special_items[1]
+Guiders = "Harlow, Kai"
+Harlow = Special_items[0]
+Kai = Special_items[1]
 
 #Tip: Reversed: You can select the last item on the list or any string of the list by using negative index
 #Example: Kai = Special_items[-1] The selected item is will be 'Rope'
 #Example: Kai = Special_items[-2] The selected item is will be 'Food'
 
-#print("Your adventure will be led by a guider! Guiders will randomly have one special items that will come in handy:" , Special_items ,)
+print("Your adventure will be led by a guider! Guiders will randomly have one special items that will come in handy:" , Special_items ,)
 
-#Select_guiders = input("Choose a guider! Harlow: A loyal German Shepherd or Kai: The courageous lion. " "\n"  + Guiders + "\n")
+Select_guiders = input("Choose a guider! Harlow: A loyal German Shepherd or Kai: The courageous lion. " "\n"  + Guiders + "\n")
 
-#if Select_guiders == "Harlow" or "Kai":
-    #Random_item = random.choice(Special_items)
-    #print(f"The guider will bring " + Random_item + "\n")
+if Select_guiders == "Harlow" or "Kai":
+    Random_item = random.choice(Special_items)
+    print(f"The guider will bring " + Random_item + "\n")
 
-#Options = "Tutorial, No tutorial"
+Options = "Tutorial, No tutorial"
 
-#Chooseoption = input("Would you like to do the tutorial?\n" + Options + "\n")
+Chooseoption = input("Would you like to do the tutorial?\n" + Options + "\n")
 
-#if Chooseoption == "Tutorial":
-    #print("Wonderful choice " + name + "! Let's enter the training room!")
-#elif Chooseoption == "No tutorial":
-    #print("Wonderful choice " + name + "! Your adventure starts now! We will meet again!")
+if Chooseoption == "Tutorial":
+    print("Wonderful choice " + name + "! Let's enter the training room!")
+elif Chooseoption == "No tutorial":
+    print("Wonderful choice " + name + "! Your adventure starts now! We will meet again!")
+```
 
-#End
 
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
 Networkchuck Episode 10
 #Tuples
 
