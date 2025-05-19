@@ -52,56 +52,100 @@ print("Marvel movies are awesome! \n" * 10)
 #Marvel movies are awesome!
 
 
-#Network Chuck episode 2
+
 #Building a video game
+#Part 1
 
-#Build a character
+#Building a character
 
-#print("Hello Adventurer! Welcome to Aurora's Adventures!!!")
-#print("What is your name?")
+print("Hello Adventurer! Welcome to Aurora's Adventures!!!")
+print("What is your name?")
 
-#Input function
-#START: input("What is your name?")
+#Output:
+#Hello Adventurer! Welcome to Aurora's Adventures!!!
+#What is your name?
 
-#START/END: print(input("What is your name?"))
+#Input function: The code gather the user's answer.
+input("What is your name?")
+
+#Output:
+#What is your name?Jasmine
+#Blank output
+
+#Correct way.
+print(input("What is your name?"))
+
+#Output:
+#What is your name? Jasmine
+#Jasmine
+
 
 #Create a Variable
-#print("Hello ....... , we are happy to have you here!")
+name = "Jasmine"
+print(name)
 
-#Start:name = "Jasmine"
-#print(name)
-#name = "Ashton"
-#END:print(name)
+name = "Ashton"
+print(name)
+
+#Output:
+#Jasmine
+#Ashton
 
 #Using the input() funtion with a variable 
-#START: print("Hello Adventurer! Welcome to Aurora's Adventures!!!")
+print("Hello Adventurer! Welcome to Aurora's Adventures!!!")
 
-#name = input("What is your name?")
+name = input("What is your name?\n")
 
-#END:print(name)
+print(name)
+
+#Output:
+#Hello Adventurer! Welcome to Aurora's Adventures!!!
+#What is your name?
+#Jasmine
+#Jasmine
 
 #Add with concatenate
-#Start:print("Hello Adventurer! Welcome to Aurora's Adventures!!!")
+print("Hello Adventurer! Welcome to Aurora's Adventures!!!")
 
-#name = input("What is your name?\n")
+name = input("What is your name?\n")
 
-#End: print("Hello " + name + ", we are happy to have you here!")
+print("Hello " + name + ", we are happy to have you here!")
 
-#Challenge 
+#Output:
+#Hello Adventurer! Welcome to Aurora's Adventures!!!
+#What is your name?
+#Jasmine
+#Hello Jasmine, we are happy to have you here!
 
-#Start: print("Hello Adventurer! Welcome to Aurora's Adventures!!!")
 
-#name = input("What is your name?\n")
+#Add more to the code.
 
-#print("Hello " + name + ", we are happy to have you here!")
+print("Hello Adventurer! Welcome to Aurora's Adventures!!!")
 
-#characters = "Healer, Fighter, Archaeology, Pilot"
+name = input("What is your name?\n")
 
-#print(name + ", choose your character! Each character have different abilities.\n" + characters)
+print("Hello " + name + ", we are happy to have you here!")
 
-#Selection = input()
+characters = "Healer, Fighter, Archaeology, Pilot"
 
-#End: print("Wonderful choice " + name + "! You chose " + Selection + "! Your adventure starts now! We will meet again!")
+print(name + ", choose your character! Each character have different abilities.\n" + characters)
+
+Selection = input()
+
+End: print("Wonderful choice " + name + "! You chose " + Selection + "! Your adventure starts now! We will meet again!")
+
+#Output:
+#Hello Adventurer! Welcome to Aurora's Adventures!!!
+#What is your name?
+#Jasmine
+#Hello Jasmine, we are happy to have you here!
+#Jasmine, choose your character! Each character have different abilities.
+#Healer, Fighter, Archaeology, Pilot
+#Pilot
+#Wonderful choice Jasmine! You chose Pilot! Your adventure starts now! We will meet again!
+
+
+
 
 
 #Network Chuck episode 3
