@@ -292,71 +292,59 @@ print("Wonderful choice " + name + "! Your adventure starts now! We will meet ag
 
 
 
-
-
-#NetworkChuck Episode 4
-#If (True) Else (False) statements. Nested ifs
-#Need to add IF Else term descriptions
-#start
-
+#Part 3: If (True) Else (False) statements. Nested ifs
 #Using IF to control flow
-
 #(Modified) Building a video game
 
-#Start
+print("Hello Adventurer! Welcome to Aurora's Adventures. Get Schwifty!!!")
 
-#Add how to automatically talk
+name = input("What is your name?\n")
 
-#print("Hello Adventurer! Welcome to Aurora's Adventures. Get Schwifty!!!")
+if name == "Rick":
+    print("Get out of here Rick!!! You're going to ruin my........")
+    exit()
+if name == "Rick Sanchez":
+    print("Get out of here Rick!!! You're going to ruin my........")
+    exit()
+if name == "Rick and Morty":
+    print("Get out of here Rick!!! You're going to ruin my........")
+    exit()
+else:
+    print("Hello " + name + ", we are happy to have you here!")
 
-#name = input("What is your name?\n")
+playergamemode = "easy mode, hard mode, extreme mode"
 
-#if name == "Rick":
-    #print("Get out of here Rick!!! You're going to ruin my........")
-    #exit()
-#if name == "Rick Sanchez":
-    #print("Get out of here Rick!!! You're going to ruin my........")
-    #exit()
-#if name == "Rick and Morty":
-    #print("Get out of here Rick!!! You're going to ruin my........")
-    #exit()
-#else:
-    #print("Hello " + name + ", we are happy to have you here!")
+gamemode = input("Choose a gamemode below you would like to play." "\n" + playergamemode + "\n")
 
-#playergamemode = "easy mode, hard mode, extreme mode"
+print("You've chosen " + gamemode + ".")
 
-#gamemode = input("Choose a gamemode below you would like to play." "\n" + playergamemode + "\n")
+characters = "Healer, Fighter, Archaeology, Pilot"
 
-#print("You've chosen " + gamemode + ".")
+ChooseCharacter = input(name + ", choose your character! Each character have different abilities. Check the options below." "\n" + characters + "\n")
 
-#characters = "Healer, Fighter, Archaeology, Pilot"
+print("Awesome choice " + name + "!" " You will do well as a " + ChooseCharacter + "!")
 
-#ChooseCharacter = input(name + ", choose your character! Each character have different abilities. Check the options below." "\n" + characters + "\n")
+Upgrades1 = ("Speed boost, Wacky coins") 
+Boostprice = 2
+Coinsprice = 4
 
-#print("Awesome choice " + name + "!" " You will do well as a " + ChooseCharacter + "!")
+buyupgrades = input("Would you like to buy upgrades? (Yes/No)\n")
+if buyupgrades == "Yes":
+    print("You chose to buy upgrades! You can buy up to 5 speed boost and 5 wacky coins each day.")
+    upgrades = input("Choose your upgrades below! \n" + Upgrades1 + "\n")
+    total = 0
+    if "Speed boost" in upgrades: 
+       quantity = input("How many speed boost do you want?\n")
+       total += Boostprice * int(quantity)
+    if "Wacky coins" in upgrades:
+       quantity2 = input("How many wacky coins do you want?\n")
+       total += Coinsprice * int(quantity2)
+    print("Your total is: " + str(total))
+else:
+    print("You chose not to buy upgrades.")
 
-#Upgrades1 = ("Speed boost, Wacky coins") 
-#Boostprice = 2
-#Coinsprice = 4
+print("Wonderful choice " + name + "! Your adventure starts now! We will meet again!")
 
-#buyupgrades = input("Would you like to buy upgrades? (Yes/No)\n")
-#if buyupgrades == "Yes":
-    #print("You chose to buy upgrades! You can buy up to 5 speed boost and 5 wacky coins each day.")
-    #upgrades = input("Choose your upgrades below! \n" + Upgrades1 + "\n")
-    #total = 0
-    #if "Speed boost" in upgrades: 
-       #quantity = input("How many speed boost do you want?\n")
-       #total += Boostprice * int(quantity)
-    #if "Wacky coins" in upgrades:
-       #quantity2 = input("How many wacky coins do you want?\n")
-       #total += Coinsprice * int(quantity2)
-    #print("Your total is: " + str(total))
-#else:
-    #print("You chose not to buy upgrades.")
-
-#print("Wonderful choice " + name + "! Your adventure starts now! We will meet again!")
-
-#End
 
 
 #NetworkChuck Episode 5
