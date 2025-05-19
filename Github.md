@@ -202,115 +202,155 @@ Pilot <br>
 Wonderful choice Jasmine! You chose Pilot! Your adventure starts now! We will meet again! <br><br>
 
 -------------------------------------------------------------------------------------------------------------------------------------------
-#Network Chuck episode 3
-#Math
+# Part 2: Math
 
-#Integers
-#Start: name = "Jasmine"
-#age = 29
+Integers 
+```
+name = "Jasmine" 
+age = 29
 
-#print(name)
-#End: print(age)
+print(name)
+print(age)
+```
+Output: <br>
+Jasmine <br>
+29 <br><br>
 
-#Type() function
-#Start:name = "Jasmine"
+Type() function 
+```
+name = "Jasmine"
 
-#age = 29
+age = 29
 
-#age ="29"
+print(type(name))
 
-#print(type(name))
+print(type(age))
+```
+Output: <br>
+<class 'str'> <br>
+<class 'int'> <br><br>
 
-#End:print(type(age))
+Floating point numbers/decimals
+```
+name = "Jasmine"
 
-#Floating point numbers/decimals
-#Start: name = "Jasmine"
+age = 29
 
-#age = 29
+actual_age = 29.96
 
-#actual_age = 29.96
+print(type(name))
 
-#print(type(name))
+print(type(age))
 
-#print(type(age))
+print(type(actual_age))
+```
+Output: <br>
+<class 'str'> <br>
+<class 'int'> <br>
+<class 'float'> <br><br>
 
-#print(type(actual_age))
+Math calculator
+```
+name = "Jasmine"
 
-#Math calculator
-#name = "Jasmine"
+age = 29
 
-#age = 29
+actual_age = 29.96
 
-#actual_age = 29.96
+print(9+15)
+print(9-15)
+print(9/15)
+print(9*15)
+print(9*15/4**5)
 
-#print(9+15)
-#print(9-15)
-#print(9/15)
-#print(9*15)
-#print(9*15/4**5)
+math = 9*15/4**5
 
-#math = 9*15/4**5
+print(math)
 
-#print(math)
+results = age + actual_age + math
 
-#results = age + actual_age + math
+print (results)
+```
+Output: <br>
+24 <br>
+-6 <br>
+0.6 <br>
+135 <br>
+0.1318359375 <br>
+0.1318359375 <br>
+59.0918359375 <br><br>
 
-#print (results) 
+(Modified) Building a video game. The int() function(converting data)
+```
+print("Hello Adventurer! Welcome to Aurora's Adventures!!!")
 
+name = input("What is your name?\n")
 
+print("Hello " + name + ", we are happy to have you here!")
 
-#(Modified) Building a video game/The int() function(converting data)
-#Add Stop a number, add term descriptions,
-#Start: 
-#print("Hello Adventurer! Welcome to Aurora's Adventures!!!")
+playergamemode = "easy mode, hard mode, extreme mode"
 
-#name = input("What is your name?\n")
+gamemode = input("Choose a gamemode below you would like to play." "\n" + playergamemode + "\n")
 
-#print("Hello " + name + ", we are happy to have you here!")
+print("You've chosen " + gamemode + ".")
 
-#playergamemode = "easy mode, hard mode, extreme mode"
+characters = "Healer, Fighter, Archaeology, Pilot"
 
-#gamemode = input("Choose a gamemode below you would like to play." "\n" + playergamemode + "\n")
+ChooseCharacter = input(name + ", choose your character! Each character have different abilities. Check the options below." "\n" + characters + "\n")
 
-#print("You've chosen " + gamemode + ".")
+print("Awesome choice " + name + "!" " You will do well as a " + ChooseCharacter + "!")
 
-#characters = "Healer, Fighter, Archaeology, Pilot"
+Upgrades1 = ("Speed boost, Wacky coins") 
+Boostprice = 2
+Coinsprice = 4
 
-#ChooseCharacter = input(name + ", choose your character! Each character have different abilities. Check the options below." "\n" + characters + "\n")
+buyupgrades = input("Would you like to buy upgrades? (Yes/No)\n")
+if buyupgrades == "Yes":
+    print("You chose to buy upgrades! You can buy up to 5 speed boost and 5 wacky coins each day.")
+    upgrades = input("Choose your upgrades below! \n" + Upgrades1 + "\n")
+    total = 0
+    if "Speed boost" in upgrades: 
+       quantity = input("How many speed boost do you want?\n")
+       total += Boostprice * int(quantity)
+    if "Wacky coins" in upgrades:
+       quantity2 = input("How many wacky coins do you want?\n")
+       total += Coinsprice * int(quantity2)
+    print("Your total is: $" + str(total))
+else:
+    print("You chose not to buy upgrades.")
 
-#print("Awesome choice " + name + "!" " You will do well as a " + ChooseCharacter + "!")
+print("Wonderful choice " + name + "! Your adventure starts now! We will meet again!")
+```
+Output: <br>
+Hello Adventurer! Welcome to Aurora's Adventures!!! <br>
+What is your name? <br>
+Jasmine <br>
+Hello Jasmine, we are happy to have you here! <br>
+Choose a gamemode below you would like to play. <br>
+easy mode, hard mode, extreme mode <br>
+extreme mode <br>
+You've chosen extreme mode. <br>
+Jasmine, choose your character! Each character have different abilities. Check the options below. <br>
+Healer, Fighter, Archaeology, Pilot <br>
+Pilot <br>
+Awesome choice Jasmine! You will do well as a Pilot! <br>
+Would you like to buy upgrades? (Yes/No) <br>
+Yes <br>
+You chose to buy upgrades! You can buy up to 5 speed boost and 5 wacky coins each day. <br>
+Choose your upgrades below! <br>
+Speed boost, Wacky coins <br>
+Speed boost and Wacky coins <br>
+How many speed boost do you want? <br>
+2 <br>
+How many wacky coins do you want? <br>
+2 <br>
+Your total is: $12 <br>
+Wonderful choice Jasmine! Your adventure starts now! We will meet again! <br><br>
 
-#Upgrades1 = ("Speed boost, Wacky coins") 
-#Boostprice = 2
-#Coinsprice = 4
-
-#buyupgrades = input("Would you like to buy upgrades? (Yes/No)\n")
-#if buyupgrades == "Yes":
-    #print("You chose to buy upgrades! You can buy up to 5 speed boost and 5 wacky coins each day.")
-    #upgrades = input("Choose your upgrades below! \n" + Upgrades1 + "\n")
-    #total = 0
-    #if "Speed boost" in upgrades: 
-       #quantity = input("How many speed boost do you want?\n")
-       #total += Boostprice * int(quantity)
-    #if "Wacky coins" in upgrades:
-       #quantity2 = input("How many wacky coins do you want?\n")
-       #total += Coinsprice * int(quantity2)
-    #print("Your total is: $" + str(total))
-#else:
-    #print("You chose not to buy upgrades.")
-
-#End
-#print("Wonderful choice " + name + "! Your adventure starts now! We will meet again!")
-
----------------------------------------------------------------------------------------------------------------------------------------------------------
-#NetworkChuck Episode 4
-#If (True) Else (False) statements. Nested ifs
-#Need to add IF Else term descriptions
-#start
-
-#Using IF to control flow
-
-#(Modified) Building a video game
+------------------------------------------------------------------------------------------------------------------------------------------------------
+# Part 3: If (True) Else (False) statements. Nested ifs
+Using IF to control flow <br>
+(Modified) Building a video game
 
 #Start
 
