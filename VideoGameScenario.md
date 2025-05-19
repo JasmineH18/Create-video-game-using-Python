@@ -5,7 +5,7 @@
 # Environments Used:
 - Visual Studio Code on Windows and MacOS 
 
-# Video Game Senario
+# Video Game Scenario
 
 Multiline strings. 
 ```
