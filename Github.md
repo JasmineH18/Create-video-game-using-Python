@@ -79,58 +79,129 @@ Marvel movies are awesome!
 Marvel movies are awesome!
 <br><br><br>
 
-#Network Chuck episode 2
-#Building a video game
+# Building a video game
+# Part 1
 
-#Build a character
+Building a character
+```
+print("Hello Adventurer! Welcome to Aurora's Adventures!!!")
+print("What is your name?")
+```
+Output:
+<br>
+Hello Adventurer! Welcome to Aurora's Adventures!!!
+<br>
+What is your name?
+<br><br>
 
-#print("Hello Adventurer! Welcome to Aurora's Adventures!!!")
-#print("What is your name?")
+Input function: The code gather the user's answer.
+```
+input("What is your name?")
+```
+Output:
+<br>
+What is your name?Jasmine
+<br>
+Blank output
+<br><br>
 
-#Input function
-#START: input("What is your name?")
+Correct way.
+```
+print(input("What is your name?"))
+```
+Output:
+<br>
+What is your name? Jasmine
+<br>
+ Jasmine
+<br><br>
 
-#START/END: print(input("What is your name?"))
+Create a Variable.
+<br>
+```
+name = "Jasmine"
+print(name)
 
-#Create a Variable
-#print("Hello ....... , we are happy to have you here!")
+name = "Ashton"
+print(name)
+```
+Output:
+<br>
+Jasmine
+<br>
+Ashton
+<br><br>
 
-#Start:name = "Jasmine"
-#print(name)
-#name = "Ashton"
-#END:print(name)
+Using the input() funtion with a variable 
+```
+print("Hello Adventurer! Welcome to Aurora's Adventures!!!")
 
-#Using the input() funtion with a variable 
-#START: print("Hello Adventurer! Welcome to Aurora's Adventures!!!")
+name = input("What is your name?\n")
 
-#name = input("What is your name?")
+print(name)
+```
+Output:
+<br>
+Hello Adventurer! Welcome to Aurora's Adventures!!!
+<br>
+What is your name?
+<br>
+Jasmine
+<br>
+Jasmine
+<br><br>
 
-#END:print(name)
+Add with concatenate
+```
+print("Hello Adventurer! Welcome to Aurora's Adventures!!!")
 
-#Add with concatenate
-#Start:print("Hello Adventurer! Welcome to Aurora's Adventures!!!")
+name = input("What is your name?\n")
 
-#name = input("What is your name?\n")
+print("Hello " + name + ", we are happy to have you here!")
+```
+Output:
+<br>
+Hello Adventurer! Welcome to Aurora's Adventures!!!
+<br>
+What is your name?
+<br>
+Jasmine
+<br>
+Hello Jasmine, we are happy to have you here!
+<br><br>
 
-#End: print("Hello " + name + ", we are happy to have you here!")
+Add more to the code. 
+```
+print("Hello Adventurer! Welcome to Aurora's Adventures!!!")
 
-#Challenge 
+name = input("What is your name?\n")
 
-#Start: print("Hello Adventurer! Welcome to Aurora's Adventures!!!")
+print("Hello " + name + ", we are happy to have you here!")
 
-#name = input("What is your name?\n")
+characters = "Healer, Fighter, Archaeology, Pilot"
 
-#print("Hello " + name + ", we are happy to have you here!")
+print(name + ", choose your character! Each character have different abilities.\n" + characters)
 
-#characters = "Healer, Fighter, Archaeology, Pilot"
+Selection = input()
 
-#print(name + ", choose your character! Each character have different abilities.\n" + characters)
+print("Wonderful choice " + name + "! You chose " + Selection + "! Your adventure starts now! We will meet again!")
+```
+Output:
+<br>
+Hello Adventurer! Welcome to Aurora's Adventures!!!
+<br>
+What is your name?
+<br>
+Jasmine
+<br>
+Hello Jasmine, we are happy to have you here!
+<br>
+Jasmine, choose your character! Each character have different abilities. <br>
+Healer, Fighter, Archaeology, Pilot <br>
+Pilot <br>
+Wonderful choice Jasmine! You chose Pilot! Your adventure starts now! We will meet again! <br><br>
 
-#Selection = input()
-
-#End: print("Wonderful choice " + name + "! You chose " + Selection + "! Your adventure starts now! We will meet again!")
-
-
+-------------------------------------------------------------------------------------------------------------------------------------------
 #Network Chuck episode 3
 #Math
 
@@ -231,7 +302,7 @@ Marvel movies are awesome!
 #End
 #print("Wonderful choice " + name + "! Your adventure starts now! We will meet again!")
 
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 #NetworkChuck Episode 4
 #If (True) Else (False) statements. Nested ifs
 #Need to add IF Else term descriptions
