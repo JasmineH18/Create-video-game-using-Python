@@ -1,6 +1,5 @@
 # Resoucres Used:
 - https://www.python.org/doc/
-- NetworkChuck
 
 # Environments Used:
 - Visual Studio Code on Windows and MacOS 
