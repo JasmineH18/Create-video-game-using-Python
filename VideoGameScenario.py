@@ -1,4 +1,4 @@
-#Resoucres Used: https://www.python.org/doc/ and NetworkChuck
+#Resoucres Used: https://www.python.org/doc/ 
 #Environments Used: Visual Studio Code on Windows and MacOS
 
 #Video Game Scenario
