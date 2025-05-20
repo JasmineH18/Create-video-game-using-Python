@@ -134,7 +134,7 @@ print(name + ", choose your character! Each character have different abilities.\
 
 Selection = input()
 
-End: print("Wonderful choice " + name + "! You chose " + Selection + "! Your adventure starts now! We will meet again!")
+print("Wonderful choice " + name + "! You chose " + Selection + "! Your adventure starts now! We will meet again!")
 
 #Output:
 #Hello Adventurer! Welcome to Aurora's Adventures!!!
@@ -523,7 +523,7 @@ Options = "Tutorial, No tutorial"
 Chooseoption = input("Would you like to do the tutorial?\n" + Options + "\n")
 
 if Chooseoption == "Tutorial":
-    #print("Wonderful choice " + name + "! Let's enter the training room!")
+    print("Wonderful choice " + name + "! Let's enter the training room!")
 elif Chooseoption == "No tutorial":
     print("Wonderful choice " + name + "! Your adventure starts now! We will meet again!")
 
