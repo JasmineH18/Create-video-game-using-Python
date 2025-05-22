@@ -57,5 +57,80 @@ app. run()
 ```
 
 # Tips
-- 
+'x' is horizontal. <br>
+'y' is vertical. <br>
+'z' is forward and backward. It's going in and out. <br><br>
+
+
+The position of the entity can be formatted differently. <br>
+Example 1:
+```
+x = 0,
+y = 0,
+z = 0,
+```
+Example 2: As a tuple
+```
+position = (0, 0, 0),
+```
+Eaxmple 3:
+```
+position = Vec3(0, 0, 0),
+```
+<br><br>
+
+
+Same format for rotation.
+Example 1:
+```
+rotation_x = 0,
+rotation_y = 0,
+rotation_z = 0,
+```
+Example 2:
+```
+rotation = (0, 0, 0,),
+```
+<br><br>
+
+
+Scale <br>
+Example 1:
+```
+scale_x = 4,
+scale_y = 4,
+scale_z = 4,
+```
+Example 2:
+```
+scale = (4, 4, 4),
+```
+Example 3: Keep the proportions the same.
+```
+scale = 4,
+```
+<br><br>
+
+
+Use * time.dt for frames. Frames should be 60 fps. <br>
+Example: 
+```
+entity.rotation_y += 50 * time.dt
+```
+<br><br>
+
+
+Bring an entity forward. <br>
+Example 1:
+```
+entity.position += entity.forward * time.dt
+```
+Example 2: Use Vec3
+```
+entity.position += Vec3(1, 0, 0) * time.dt
+```
+
+
+
+
 
